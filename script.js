@@ -1,5 +1,3 @@
-function verificar(event) {
-    event.preventDefault();
 function contar() {
     let ini = document.getElementById('inicio');
     let fim = document.getElementById('fim');
@@ -29,5 +27,4 @@ function contar() {
         }
         res.innerHTML += `\u{1F3C1}`
     }
-}
 }
